@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Resume from "./components/Resume";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -48,6 +49,7 @@ function App() {
                   )}
                   <Hero />
                   <About />
+                  <SpeedInsights />
                   <Experience />
                   <Skills />
                   <CodingProfiles />
